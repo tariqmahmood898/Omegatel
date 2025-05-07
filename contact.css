@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+
+}
+ 
+h1 {
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 6px;
+    background-color: #d8a48149;
+    border-radius: 5px;
+    box-shadow: 0 5 10px rgba(189, 73, 73, 0.534);
+}
+
+label {
+    display: block;
+    margin-bottom: 2px;
+    margin-left: 7px;
+    font-weight: bold;
+    width: 100%;
+    display: inline-block; 
+}
+
+input, textarea {
+    width: 90%;
+    font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+    padding: 7px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border: 1px solid #df65e4;
+    border-radius: 5px;
+    box-shadow: 1px 7px 9px rgba(6, 23, 70, 0.267);
+}
+
+button {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    background: linear-gradient(150deg,  rgba(243, 59, 234, 0.185) 20%,  rgba(150, 223, 207, 0.856) 66%,  rgba(218, 141, 218, 0.466) 20%);
+    color: rgb(15, 1, 1);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: auto;
+    box-shadow: 1px 7px 9px rgba(206, 107, 231, 0.712);
+}
+
+button:hover {
+    background-color: #b864f052;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 4px;
+    text-align: left;
+}
+body div{
+    text-align: left;
+    margin-left: 10px;
+    width: 45%;
+    display: inline-block;
+    margin-right: 10px;    
+}
+
+

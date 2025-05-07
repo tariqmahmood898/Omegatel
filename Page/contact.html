@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <h1>Contact Us</h1>
+    <form id="contactForm">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" class="name" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="telegramId">Telegram Id:</label>
+            <input type="text" id="telegramId" name="telegramId" required>
+        </div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message here:</label>
+        <textarea id="message" name="message" required style="height: 164px;"></textarea>
+
+        <button type="submit">Submit massage</button>
+    </form>
+    <script src="contact.js"></script>
+</body>
+
+</html>

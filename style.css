@@ -1,0 +1,355 @@
+/* CSS copied from earlier content */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, rgba(124, 146, 206, 0.418),rgba(196, 123, 123, 0.342), rgba(122, 199, 216, 0.685));
+  background-attachment: fixed;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: #099437;
+  color: white;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 10px;
+}
+
+/* Navigation Styles */
+nav {
+  background: linear-gradient(45deg, #cdecf5, #00000085);
+  padding: 8px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+nav h1 {
+  color: #00d4ff;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  padding: 5px 10px;
+}
+
+nav ul li a:hover {
+  color: #00d4ff;
+}
+
+/* Mobile Styles */
+.menu-icon {
+  display: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    background: #a959b1;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    display: none;
+  }
+  nav ul.active {
+    display: flex;
+  }
+  .menu-icon {
+    display: block;
+  }
+
+}
+
+header {
+  height: 90vh;
+  background: url('./image/worldwide.png') no-repeat center center/cover;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-blend-mode: overlay;
+}
+
+header h1 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+section {
+  margin: 5px;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.services,
+.downloads {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.service-card,
+.download-card {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 20px;
+  border-radius: 20px;
+  transition: all 0.4s ease;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.rate-card {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 10px;
+  border-radius: 20px;
+  transition: all 0.4s ease;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.11);
+  position: relative;
+}
+
+.service-card:hover,
+.download-card:hover {
+  transform: translateY(-10px) scale(1.03);
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.service-card img,
+.download-card img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  transition: transform 0.5s ease;
+}
+
+.service-card:hover img, 
+.download-card:hover img {
+  transform: rotate(10deg) scale(1.1);
+}
+
+h2 {
+  font-size: 2.5em;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 0.90em;
+}
+
+.download-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 30px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+  transition: all 0.3s;
+}
+
+.download-btn:hover {
+  background: #00d4ff;
+  color: #000;
+}
+
+.contact {
+  background: linear-gradient(135deg, rgba(72, 61, 139, 0.85), rgba(171, 161, 228, 0.85));
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 3px;
+  border-radius: 5px;
+  box-shadow: 0 5 10px rgba(238, 236, 236, 0.534);
+}
+
+.inline {
+  text-align: left;
+  margin-left: 2px;
+  width: 45%;
+  display: inline-block;
+  margin-right: 10px;    
+}
+
+label {
+  display: block;
+  margin-bottom: 2px;
+  margin-left: 5px;
+  font-weight: bold;
+  width: 100%;
+  display: inline-block; 
+}
+
+input, textarea {
+  width: 90%;
+  font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
+  padding: 7px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border: 1px solid #df65e4;
+  border-radius: 5px;
+  box-shadow: 1px 7px 9px rgba(6, 245, 105, 0.712);
+}
+.smsbutton {
+  display: block;
+  width: 200px;
+  padding: 10px;
+  background: linear-gradient(135deg, #d2b9f5, #eebc33);
+  color: rgb(15, 1, 1);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: auto;
+  box-shadow: 1px 7px 9px rgba(244, 242, 245, 0.712);
+}
+
+.contact button:hover {
+  background: #eebc33;
+  color: #fff;
+}
+
+footer {
+  background: #222;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #aaa;
+}
+
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: #00d4ff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+#backToTop:hover {
+  background: #008cba;
+}
+
+/* Social Cards Section */
+.social-cards {
+  max-width: fit-content;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: auto;
+  flex-wrap: wrap;
+  padding: 7px 5px;
+  background: linear-gradient(135deg, #bfbcee, #c15dce);
+}
+
+/* Single Card Styling */
+.card {
+  background: #f0d6f077;
+  border-radius: 12px;
+  padding: 3px 2px;
+  width: 100px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 2px;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+
+  header {
+    height: 80vh;
+    background: url('./image/worldwide.png') no-repeat center center/cover;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-blend-mode: overlay;
+  }
+
+  header h1 {
+    font-size: 1.3em;
+  }
+
+  header p {
+    font-size: 0.8em;
+  }
+
+  h2 {
+    font-size: 1.20em;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+
+  h3{
+    font-size: 1.1em;
+    margin-top: 8px;
+    padding-top: 5px;
+  }
+ 
+
+}
