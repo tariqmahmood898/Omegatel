@@ -213,9 +213,9 @@ form {
 .inline {
   text-align: left;
   margin-left: 2px;
-  width: 45%;
+  width: 42%;
   display: inline-block;
-  margin-right: 10px;    
+  margin-right: 5px;    
 }
 
 label {
@@ -299,16 +299,16 @@ footer {
 .card {
   background: #f0d6f077;
   border-radius: 12px;
-  padding: 3px 2px;
-  width: 70px;
+  padding: 3px 1px;
+  width: 60px;
   text-align: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .card img {
-  width: 48px;
-  height: 48px;
+  width: 45px;
+  height: 45px;
   margin-bottom: 2px;
 }
 
