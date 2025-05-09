@@ -183,8 +183,8 @@ p {
 
 .download-btn {
   display: inline-block;
-  margin-top: 10px;
-  padding: 8px 30px;
+  margin-top: 7px;
+  padding: 8px 20px;
   border: 2px solid #fff;
   border-radius: 20px;
   text-decoration: none;
@@ -230,7 +230,7 @@ label {
 input, textarea {
   width: 90%;
   font-family: Cambria, Georgia, Times, 'Times New Roman', serif;
-  padding: 5px;
+  padding: 3px;
   font-size: 14px;
   margin-bottom: 15px;
   margin-right: 15px;
@@ -259,7 +259,7 @@ input, textarea {
 
 footer {
   background: #222;
-  padding: 20px;
+  padding: 15px;
   text-align: center;
   font-size: 0.9em;
   color: #aaa;
@@ -332,7 +332,7 @@ footer {
   }
 
   header h1 {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 
   header p {
