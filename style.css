@@ -350,6 +350,17 @@ footer {
     margin-top: 5px;
     padding-top: 3px;
   }
+  h1 {
+    font-size: 1.1em;
+  }
+
+  p {
+    font-size: 0.7em;
+  }
+
+
+
+
 
 /* Social Cards Section */
 .social-cards {
