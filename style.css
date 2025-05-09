@@ -321,8 +321,7 @@ footer {
 
   header {
 
- background-image: linear-gradient(0deg, #64188C , #c41a9f 50%, #16E312 100%); 
- -webkit-background-clip: text; 
+ font-color: linear-gradient(0deg, #64188C , #c41a9f 50%, #16E312 100%);
 
 
     height: 68vh;
