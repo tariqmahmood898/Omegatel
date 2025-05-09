@@ -220,6 +220,7 @@ form {
 
 label {
   display: block;
+  font-size:8px;
   margin-bottom: 1px;
   margin-left: 2px;
   width: 100%;
