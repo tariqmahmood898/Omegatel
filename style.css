@@ -397,6 +397,13 @@ section {
   transition: transform 0.5s ease;
 }
 
+.service-card h1,
+.download-card h1 {
+  margin: 5px;
+  transition: transform 0.5s ease;
+}
+
+
  
 
 }
