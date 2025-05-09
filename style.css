@@ -374,6 +374,21 @@ footer {
   background: linear-gradient(135deg, #bfbcee, #c15dce);
 }
 
+section {
+  margin: 5px;
+  padding: 10px 5px;
+  text-align: center;
+}
+
+
+.services,
+.downloads {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  margin-top: 30px;
+}
+
  
 
 }
