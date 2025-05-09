@@ -395,6 +395,15 @@ section {
   transition: transform 0.5s ease;
 }
 
+label {
+  display: block;
+  font-size:10px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  width: 100%;
+  display: inline-block; 
+}
+
 
  
 
