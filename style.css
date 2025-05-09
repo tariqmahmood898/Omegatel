@@ -320,7 +320,7 @@ footer {
 @media (max-width: 768px) {
 
   header {
-    height: 65vh;
+    height: 68vh;
     background: url('./image/worldwide.png') no-repeat center center/cover;
     background-size: contain;
     display: flex;
@@ -336,7 +336,7 @@ footer {
   }
 
   header p {
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 
   h2 {
@@ -357,9 +357,6 @@ footer {
   p {
     font-size: 0.7em;
   }
-
-
-
 
 
 /* Social Cards Section */
