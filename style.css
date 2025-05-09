@@ -320,6 +320,12 @@ footer {
 @media (max-width: 768px) {
 
   header {
+ color: #64188C; 
+ background-image: linear-gradient(0deg, #64188C , #c41a9f 50%, #16E312 100%); 
+ background-clip: text; 
+ -webkit-background-clip: text; 
+ -webkit-text-fill-color: transparent; 
+
     height: 68vh;
     background: url('./image/worldwide.png') no-repeat center center/cover;
     background-size: contain;
