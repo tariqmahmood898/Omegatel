@@ -220,9 +220,8 @@ form {
 
 label {
   display: block;
-  margin-bottom: 2px;
+  margin-bottom: 1px;
   margin-left: 2px;
-  font-weight: bold;
   width: 100%;
   display: inline-block; 
 }
