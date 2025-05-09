@@ -389,6 +389,14 @@ section {
   margin-top: 30px;
 }
 
+.service-card img,
+.download-card img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 5px;
+  transition: transform 0.5s ease;
+}
+
  
 
 }
