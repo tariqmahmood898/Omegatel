@@ -23,12 +23,12 @@ label {
     margin-bottom: 2px;
     margin-left: 5px;
     font-weight: bold;
-    width: 80%;
+    width: 100%;
     display: inline-block; 
 }
 
 input, textarea {
-    width: 80%;
+    width: 100%;
     font-family: Cambria, Times, serif;
     padding: 5px;
     font-size: 14px;
@@ -49,7 +49,8 @@ button {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-    margin: auto;
+    margin: 10px auto;
+
     box-shadow: 1px 7px 9px rgba(206, 107, 231, 0.712);
 }
 
