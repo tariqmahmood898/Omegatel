@@ -20,7 +20,7 @@ form {
 
 label {
     display: block;
-    margin-bottom: 2px;
+    margin-bottom: 10px;
     margin-left: 5px;
     font-weight: bold;
     width: 100%;
@@ -32,8 +32,7 @@ input, textarea {
     font-family: Cambria, Times, serif;
     padding: 5px;
     font-size: 14px;
-    margin-bottom: 20px auto;
-    
+    margin-bottom: 20px;
     border: 1px solid #df65e4;
     border-radius: 5px;
     box-shadow: 1px 7px 9px rgba(6, 23, 70, 0.267);
